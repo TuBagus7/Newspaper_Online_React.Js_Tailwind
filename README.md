@@ -1,5 +1,6 @@
 # React + Vite
 API : https://api-berita-indonesia.vercel.app/cnn/teknologi/
+
 To download and setup configuration at first time
 1. Make sure Node.js is installed on your system. Download it from https://nodejs.org and install the LTS version.
     To Check your device, open cmd:
