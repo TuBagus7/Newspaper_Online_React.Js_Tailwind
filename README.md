@@ -26,11 +26,13 @@ Link : https://tailwindcss.com/docs/guides/vite
             @tailwind utilities;
 5. Import CSS in Main File
    Import the CSS file in your main.jsx or main.tsx:
+   
 
+# After That, the dependeced all installed, we can run the app : 
+### npm run dev
 
+![image](https://github.com/user-attachments/assets/71f83671-e156-4821-8216-fea7e9a5ca22)
 
-After That, the dependeced all installed, we can run the app : 
-npm run dev
 
 
 
