@@ -1,8 +1,36 @@
 # React + Vite
+To download and setup configuration at first time
+1. Make sure Node.js is installed on your system. Download it from https://nodejs.org and install the LTS version.
+    To Check your device, open cmd:
+    node -v
+    npm -v
+2. Run the following command to create a React project using Vite: link : https://vite.dev/guide/
+   for ex : npm create vite@latest news-app -- --template react
+4. Navigate to the Project Directory
+   for ex : cd news-app
+6. Install the required dependencies using
+   for ex : npm install
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Before run the app, make sure Tailwind installed
+Link : https://tailwindcss.com/docs/guides/vite
+1. Run the following command to install Tailwind CSS and its dependencies
+   for ex : npm install -D tailwindcss postcss autoprefixer
+2. Generate a tailwind.config.js file by running
+   for ex : npx tailwindcss init
+3. Configure the Content Path
+   Open the tailwind.config.js file and set the content path to include your project files.
+4. Add Tailwind Directives to CSS
+   Create a CSS file (e.g., src/index.css) and add the Tailwind directives:
+   For ex : @tailwind base;
+            @tailwind components;
+            @tailwind utilities;
+5. Import CSS in Main File
+   Import the CSS file in your main.jsx or main.tsx:
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+After That, the dependeced all installed, we can run the app : 
+npm run dev
+
+
+
